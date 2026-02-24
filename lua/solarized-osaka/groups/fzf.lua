@@ -3,8 +3,8 @@ local M = {}
 function M.get(c, opts)
   --stylua: ignore
   return {
-    FzfLuaNormal        = { fg = c.base0, bg = c.bg_float },
-    FzfLuaBorder        = { fg = c.base02, bg = c.bg_float },
+    FzfLuaNormal        = { fg = c.base0, bg = c.none },
+    FzfLuaBorder        = { fg = c.base02, bg = c.none },
     FzfLuaCursor        = "IncSearch",
     FzfLuaFzfCursorLine = "CursorLine",
     FzfLuaPath          = "Directory",
