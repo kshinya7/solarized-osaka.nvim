@@ -28,7 +28,7 @@ function M.get(c, opts)
     -- Macro         = { }, --    same as Define
     -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
 
-    Type                     = { fg = c.yellow500 }, -- (preferred) int, long, char, etc.
+    Type                     = { fg = c.base0 }, -- (preferred) int, long, char, etc.
     -- StorageClass  = { }, -- static, register, volatile, etc.
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
