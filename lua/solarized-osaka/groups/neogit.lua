@@ -15,7 +15,7 @@ function M.get(c, opts)
     NeogitDiffDeleteHighlight  = { fg = c.red500, bg = c.red900 },
     NeogitDiffAdd              = { fg = c.green500, bg = c.green900 },
     NeogitDiffAddHighlight     = { fg = c.green500, bg = c.green900 },
-    NeogitSectionHeader        = { fg = c.blue500, bold = true },
+    NeogitSectionHeader        = { fg = c.orange500, bold = true },
     NeogitPopupActionKey       = { fg = c.orange500 },
     NeogitChangeDeleted        = { fg = c.red500, bold = true, italic = true },
     NeogitChangeModified       = { fg = c.cyan500, bold = true, italic = true },

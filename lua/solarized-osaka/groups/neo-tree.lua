@@ -10,6 +10,9 @@ function M.get(c, opts)
     NeoTreeGitModified   = { fg = c.yellow500 },
     NeoTreeGitDeleted    = { fg = c.red500 },
     NeoTreeGitAdded      = { fg = c.green500 },
+    NeoTreeDirectoryIcon = { fg = c.yellow300 },
+    NeoTreeDirectoryName = { fg = c.base00 },
+    NeoTreeFileName      = { fg = c.fg_dim },
   }
 end
 
