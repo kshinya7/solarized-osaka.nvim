@@ -8,7 +8,7 @@ local M = {}
 M.default = {
   none = "NONE",
 
-  base04 = hsl(199, 60, 6),
+  base04 = hsl(199, 60, 8),
   base03 = hsl(199, 60, 14),
   base02 = hsl(199, 60, 18),
   base01 = hsl(199, 10, 40),
@@ -74,6 +74,7 @@ M.default = {
   bg = hsl(192, 100, 5),
   bg_highlight = hsl(192, 100, 11),
   fg = hsl(180, 5, 82),
+  fg_dim = hsl(180, 3, 75),
 }
 
 ---@class Palette
